@@ -1,0 +1,44 @@
+@media screen and (max-width: 1160px){
+
+    /* LAYOUT */
+
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    /* LAYOUT */
+
+    .container {
+        max-width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    
+    /* LAYOUT */
+
+    .container {
+        max-width: 100%;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
+    .row .col{
+        width: 100%;
+    }
+
+    .steps {
+        margin: 3rem 0 0;
+    }
+
+    .why-us{
+        background-color: #222222;
+        margin-bottom: 0;
+    }
+}
